@@ -1,18 +1,6 @@
 {
     "name": "forklift1",
-    "version": "0.0.0",
-   "builds":[
-       "src": "./bin/www",
-            "use": "@vercel/node"
-       }
-       ],
-    "routes":[
-        {
-            "src": "/(.*)",
-            "dest": "/"
-        }
-        ]
-       
+    "version": "0.0.0",     
     "scripts": {
         "start": "node ./bin/www"
     },
